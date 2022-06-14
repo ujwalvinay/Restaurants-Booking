@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- BootStrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Booking Page</title>
+  </head>
+  <body>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+    <!-- Font Awesom CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
+
+    <!-- Menu Section -->
+      <section id="title">
+        <div class="container-fluid title-container">
+            <nav class="navbar navbar-expand-lg ">
+                <a href="#" class="navbar-brand h1">
+                  <img src="assets\Fast Food.svg" alt="Logo" id="logo"/>
+                </a>
+
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto px-4 ">
+                      <li class="nav-item">
+                        <a class="nav-link hover-underline-animation"  href="#about">Find Food</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link hover-underline-animation" href="#feature">Tacking</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link hover-underline-animation" href="#download">Find Restaurant</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link hover-underline-animation" href="#support">Location</a>
+                      </li>
+
+                    </ul>
+                    <button type="button" class="btn">Log In</button>
+                    <button type="button" class="btn  Signup-button">Sign Up</button>
+            </nav>
+
+
+            <!-- Banner Section -->
+            <div class="row banner-section">
+              <div class="col-md-6 banner-text my-auto">
+                  <h5>EASY WAY TO ORDER YOUR FOOD</h5>
+                  <h1>Order Healthy& Fresh Food</h1>
+                  <h1 id="color-font">anytime!</h1>
+                  <p>Just confirm your order and enjoy our delicous fastest delivery</p>
+                  <div class="banner-buttons">
+                    <button type="button" class="btn Order-button">Order Now</button>
+                    <a href="#" role="button" class="see-menu hover-underline-animation">See menu</a>
+                  </div>
+              </div>
+              <div class="col-md-5">
+                  <img src="assets\food-img.png" alt="Banner-img" id="banner-img">
+              </div>
+            </div>
+    </section>
+    <!-- Booking Section -->
+    <h5 id="booking-id">Book A Table</h5>
+    <section class="booking">
+      <div class="container-fluid">
+
+        <div class="booking-box">
+          <div class="row my-auto">
+            <div class="col-md-3">
+              <h5>Date</h5>
+              <input type="date" name="date" placeholder="DD/MM/YYYY" class="input-field">
+            </div>
+            <div class="col-md-3">
+              <h5>Meals</h5>
+              <div class="elem-group">
+                  <select id="room-selection" name="room_preference" required class="input-field">
+                      <option value="">Breakfast</option>
+
+                      <option value="adjoining">Lunch</option>
+                      <option value="adjacent">Dinner</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h5>Email</h5>
+                <input type="text" name="email" placeholder="example@email.com" class="input-field">
+              </div>
+              <div class="col-md-2 my-auto">
+                <button type="button"  class="btn booking-button" >Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
