@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*
+{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+/* Logo Section */
+#logo
+{
+  width: 70px;
+  margin: 0 1rem;
+}
+
+/* Title Section */
+.nav-link
+{
+  font-weight: 600;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 60%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFA500;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.Signup-button
+{
+  background-color: #1B2430;
+  color: white;
+  font-weight: 600;
+  margin: 0 2rem
+}
+.navbar-nav
+{
+  margin: 0 auto;
+  gap:1rem
+}
+
+
+/* Banner Section */
+
+#color-font
+{
+  color: #FFA500;
+}
+h1
+{
+  font-size: 55px;
+  width: 70%;
+}
+
+.Order-button
+{
+
+  background-color: #FFA500;
+  color: white;
+}
+.Order-button:hover
+{
+  background-color: white;
+  color: #FFA500;
+  border:2px solid #FFA500;
+}
+.banner-section
+{
+  padding: 1rem 8rem;
+}
+
+.see-menu
+{
+  text-decoration: none;
+  margin: 0 1rem;
+  color: black;
+  font-weight: 600;
+}
+p
+{
+  font-weight: 600;
+  width: 20vw;
+}
+
+
+
+/* Booking Section */
+.booking
+{
+  border:2px solid black;
+  border-radius: 10px;
+  width: 70%;
+  padding: 1rem 5rem;
+  margin:auto;
+  margin-bottom: 3rem;
+}
+#booking-id
+{
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 14rem;
+}
+.booking h5
+{
+  font-weight:600;
+  font-size: 20px;
+
+}
+.input-field
+{
+  padding: .5rem 1rem;
+  margin: .5rem 0;
+  border-radius: 10px;
+}
+.booking-button
+{
+  padding: .5rem 1rem;
+  background-color: #FFA500;
+  color: white;
+}
+
+.booking-button:hover
+{
+  border: 2px solid #FFA500;
+  color: #FFA500;
+  background-color: white;
+}
+
