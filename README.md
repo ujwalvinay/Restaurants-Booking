@@ -42,7 +42,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://ujwalvinay.github.io/Payment-Website/](https://ujwalvinay.github.io/Payment-Website/)
+- Live Site URL: [https://ujwalvinay.github.io/Restaurants-Booking/](https://ujwalvinay.github.io/Restaurants-Booking/)
 
 ## My process
 
